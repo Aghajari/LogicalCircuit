@@ -711,6 +711,7 @@ public class Controller implements Initializable {
         table.setItems(FXCollections.observableList(truthTable.getTruthTable()));
 
         Stage stage = new Stage();
+        stage.initOwner(root.getScene().getWindow());
         stage.setTitle(board.getBoardName() + " Truth Table");
         stage.setScene(new Scene(table,
                 Math.min(500, table.getColumns().size() * 50),

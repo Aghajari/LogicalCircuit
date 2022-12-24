@@ -1,20 +1,17 @@
 package com.aghajari.circuit.parser;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Circuit {
 
-    private final List<String> idsInOrder = new ArrayList<>();
+    private final LinkedHashSet<String> idsInOrder = new LinkedHashSet<>();
     private final List<Element> elements = new ArrayList<>();
     private final Map<String, Circuit> modules = new HashMap<>();
 
     private String id;
     private String name;
 
-    public List<String> getIdsInOrder() {
+    public LinkedHashSet<String> getIdsInOrder() {
         return idsInOrder;
     }
 

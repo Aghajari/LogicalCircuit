@@ -106,7 +106,7 @@ https://user-images.githubusercontent.com/30867537/209450262-f294f011-747d-4c55-
 
 You are not allowed to create a loop in circuit, but you can use the predefined `D-Latch`, `D-FlipFlop` and `T-FlipFlop` modules.
 
-<img height=400 src="./Images/FlipFlop.png"/>
+<img width=700 src="./Images/FlipFlop.png"/>
 
 ## Save And Reload
 

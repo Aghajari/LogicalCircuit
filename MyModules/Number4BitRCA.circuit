@@ -18,6 +18,19 @@
     "zpcNH86FheBU9qaf",
     "MrZTKWbfMQExOb1k",
     "pMiORm1CUPd7zkVV",
+    "V7vvwAqneXQayHJe",
+    "fYajUNdAHM0eqOlw",
+    "S4cSzTxTEv0IZWtd",
+    "9QCHk5WM39k7tI9N",
+    "s6vZLNW0G3xC1cDZ",
+    "usUgWsfNiXDKz4gB",
+    "72OWEGLtbVTWZyD0",
+    "hVY6AekyXDvIlD6n",
+    "snR8LMG3gwZJQpq9",
+    "LP3sb29W9eGKyQgP",
+    "zpcNH86FheBU9qaf",
+    "MrZTKWbfMQExOb1k",
+    "pMiORm1CUPd7zkVV",
     "GLLcBCZdFZXAMbo1",
     "A2eidNwGkMHG0zMW",
     "n6RmUwMw6Cq9RYqW",
@@ -34,64 +47,23 @@
     "fYajUNdAHM0eqOlw",
     "S4cSzTxTEv0IZWtd",
     "9QCHk5WM39k7tI9N",
-    "d7a21Bf5EunFTW54"
+    "d7a21Bf5EunFTW54",
+    "7lb2fisVxEO0zTv3",
+    "xPBs1CC0Qd0TFOyX",
+    "Sshebe5G9WKHLahR",
+    "VMpFIh46yIN7Zrlp",
+    "pJGtqY2SeK2TR2mO",
+    "6Gy2K8yw2SwgxPmD",
+    "W1G6jZ0ew1u62ZUk",
+    "PhJ56XoLNhjhlIvy",
+    "dUNs01TlWHRtaRaP"
   ],
   "elements": [
     {
-      "startX": 426.5,
-      "endX": 585.0,
-      "startY": 224.5,
-      "endY": 224.0,
-      "inputValue": true,
-      "elementName": "S1",
-      "elementClass": "com.aghajari.circuit.elements.Wire",
-      "elementId": "n6RmUwMw6Cq9RYqW",
-      "connectors": [
-        {
-          "isOutput": false,
-          "hasConnected": true,
-          "index": 0,
-          "connectionIndex": 0,
-          "connectionElementId": "LP3sb29W9eGKyQgP"
-        },
-        {
-          "isOutput": true,
-          "hasConnected": false,
-          "index": 0,
-          "connectionIndex": 0
-        }
-      ]
-    },
-    {
-      "startX": 426.5,
-      "endX": 580.0,
-      "startY": 174.5,
-      "endY": 178.0,
-      "inputValue": true,
-      "elementName": "S0",
-      "elementClass": "com.aghajari.circuit.elements.Wire",
-      "elementId": "A2eidNwGkMHG0zMW",
-      "connectors": [
-        {
-          "isOutput": false,
-          "hasConnected": true,
-          "index": 0,
-          "connectionIndex": 0,
-          "connectionElementId": "snR8LMG3gwZJQpq9"
-        },
-        {
-          "isOutput": true,
-          "hasConnected": false,
-          "index": 0,
-          "connectionIndex": 0
-        }
-      ]
-    },
-    {
       "startX": 424.0,
-      "endX": 592.0,
+      "endX": 532.93408203125,
       "startY": 274.5,
-      "endY": 276.0,
+      "endY": 269.6000061035156,
       "inputValue": true,
       "elementName": "S2",
       "elementClass": "com.aghajari.circuit.elements.Wire",
@@ -106,17 +78,242 @@
         },
         {
           "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 2,
+          "connectionElementId": "dUNs01TlWHRtaRaP"
+        }
+      ]
+    },
+    {
+      "startX": 426.5,
+      "endX": 532.93408203125,
+      "startY": 224.5,
+      "endY": 220.39999389648438,
+      "inputValue": true,
+      "elementName": "S1",
+      "elementClass": "com.aghajari.circuit.elements.Wire",
+      "elementId": "n6RmUwMw6Cq9RYqW",
+      "connectors": [
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "LP3sb29W9eGKyQgP"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 1,
+          "connectionElementId": "dUNs01TlWHRtaRaP"
+        }
+      ]
+    },
+    {
+      "startX": 426.5,
+      "endX": 532.93408203125,
+      "startY": 174.5,
+      "endY": 171.1999969482422,
+      "inputValue": true,
+      "elementName": "S0",
+      "elementClass": "com.aghajari.circuit.elements.Wire",
+      "elementId": "A2eidNwGkMHG0zMW",
+      "connectors": [
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "snR8LMG3gwZJQpq9"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "dUNs01TlWHRtaRaP"
+        }
+      ]
+    },
+    {
+      "startX": 184.0,
+      "endX": 320.0,
+      "startY": 89.0,
+      "endY": 152.20001220703125,
+      "inputValue": false,
+      "elementName": "C0",
+      "elementClass": "com.aghajari.circuit.elements.Wire",
+      "elementId": "WEGHzqerqeBJauKz",
+      "connectors": [
+        {
+          "isOutput": false,
           "hasConnected": false,
           "index": 0,
           "connectionIndex": 0
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "GLLcBCZdFZXAMbo1"
+        }
+      ]
+    },
+    {
+      "bitCount": 4,
+      "number": 7,
+      "internalWires": [
+        {
+          "startX": 195.744140625,
+          "endX": 320.0,
+          "startY": 334.20001220703125,
+          "endY": 305.20001220703125,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "V7vvwAqneXQayHJe",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "d7a21Bf5EunFTW54"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 5,
+              "connectionElementId": "GLLcBCZdFZXAMbo1"
+            }
+          ]
+        },
+        {
+          "startX": 195.744140625,
+          "endX": 320.0,
+          "startY": 365.3999938964844,
+          "endY": 335.79998779296875,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "fYajUNdAHM0eqOlw",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "d7a21Bf5EunFTW54"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 6,
+              "connectionElementId": "GLLcBCZdFZXAMbo1"
+            }
+          ]
+        },
+        {
+          "startX": 195.744140625,
+          "endX": 320.0,
+          "startY": 396.6000061035156,
+          "endY": 366.4000244140625,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "S4cSzTxTEv0IZWtd",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "d7a21Bf5EunFTW54"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 7,
+              "connectionElementId": "GLLcBCZdFZXAMbo1"
+            }
+          ]
+        },
+        {
+          "startX": 195.744140625,
+          "endX": 320.0,
+          "startY": 427.79998779296875,
+          "endY": 397.0,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "9QCHk5WM39k7tI9N",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 3,
+              "connectionElementId": "d7a21Bf5EunFTW54"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 8,
+              "connectionElementId": "GLLcBCZdFZXAMbo1"
+            }
+          ]
+        }
+      ],
+      "layoutX": 149.255859375,
+      "layoutY": 306.0,
+      "prefWidth": 51.48828125,
+      "prefHeight": 150.0,
+      "elementName": "B",
+      "elementClass": "com.aghajari.circuit.elements.NumberGate",
+      "elementId": "d7a21Bf5EunFTW54",
+      "connectors": [
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "V7vvwAqneXQayHJe"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 1,
+          "connectionIndex": 0,
+          "connectionElementId": "fYajUNdAHM0eqOlw"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 2,
+          "connectionIndex": 0,
+          "connectionElementId": "S4cSzTxTEv0IZWtd"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 3,
+          "connectionIndex": 0,
+          "connectionElementId": "9QCHk5WM39k7tI9N"
         }
       ]
     },
     {
       "startX": 429.5,
-      "endX": 598.0,
+      "endX": 532.93408203125,
       "startY": 328.5,
-      "endY": 330.0,
+      "endY": 318.79998779296875,
       "inputValue": true,
       "elementName": "S3",
       "elementClass": "com.aghajari.circuit.elements.Wire",
@@ -131,17 +328,358 @@
         },
         {
           "isOutput": true,
-          "hasConnected": false,
+          "hasConnected": true,
           "index": 0,
-          "connectionIndex": 0
+          "connectionIndex": 3,
+          "connectionElementId": "dUNs01TlWHRtaRaP"
+        }
+      ]
+    },
+    {
+      "internalWires": [],
+      "layoutX": 648.0,
+      "layoutY": 143.5,
+      "prefWidth": 220.0,
+      "prefHeight": 265.0,
+      "elementName": "7S",
+      "elementClass": "com.aghajari.circuit.elements.modules.SevenSegment",
+      "elementId": "7lb2fisVxEO0zTv3",
+      "connectors": [
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "xPBs1CC0Qd0TFOyX"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 1,
+          "connectionIndex": 0,
+          "connectionElementId": "Sshebe5G9WKHLahR"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 2,
+          "connectionIndex": 0,
+          "connectionElementId": "VMpFIh46yIN7Zrlp"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 3,
+          "connectionIndex": 0,
+          "connectionElementId": "pJGtqY2SeK2TR2mO"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 4,
+          "connectionIndex": 0,
+          "connectionElementId": "6Gy2K8yw2SwgxPmD"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 5,
+          "connectionIndex": 0,
+          "connectionElementId": "W1G6jZ0ew1u62ZUk"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 6,
+          "connectionIndex": 0,
+          "connectionElementId": "PhJ56XoLNhjhlIvy"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 7,
+          "connectionIndex": 0,
+          "connectionElementId": "Xi8VblrS3Gp33ajJ"
+        }
+      ]
+    },
+    {
+      "internalWires": [
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 152.75,
+          "endY": 170.61111450195312,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "xPBs1CC0Qd0TFOyX",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 183.5,
+          "endY": 200.72222900390625,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "Sshebe5G9WKHLahR",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 214.25,
+          "endY": 230.83334350585938,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "VMpFIh46yIN7Zrlp",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 245.0,
+          "endY": 260.94445037841797,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "pJGtqY2SeK2TR2mO",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 3,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 3,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 275.75,
+          "endY": 291.0555419921875,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "6Gy2K8yw2SwgxPmD",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 4,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 4,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 306.5,
+          "endY": 321.16668701171875,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "W1G6jZ0ew1u62ZUk",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 5,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 5,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        },
+        {
+          "startX": 596.06591796875,
+          "endX": 648.0,
+          "startY": 337.25,
+          "endY": 351.27777099609375,
+          "inputValue": false,
+          "elementName": "",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "PhJ56XoLNhjhlIvy",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 6,
+              "connectionElementId": "dUNs01TlWHRtaRaP"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 6,
+              "connectionElementId": "7lb2fisVxEO0zTv3"
+            }
+          ]
+        }
+      ],
+      "layoutX": 532.93408203125,
+      "layoutY": 125.0,
+      "prefWidth": 68.1318359375,
+      "prefHeight": 240.0,
+      "elementName": "NT7",
+      "elementClass": "com.aghajari.circuit.elements.modules.NumberToSevenSegment",
+      "elementId": "dUNs01TlWHRtaRaP",
+      "connectors": [
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "A2eidNwGkMHG0zMW"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 1,
+          "connectionIndex": 0,
+          "connectionElementId": "n6RmUwMw6Cq9RYqW"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 2,
+          "connectionIndex": 0,
+          "connectionElementId": "ySJVslgX9IMD0htb"
+        },
+        {
+          "isOutput": false,
+          "hasConnected": true,
+          "index": 3,
+          "connectionIndex": 0,
+          "connectionElementId": "fdvo0UPUeLatOfP0"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 0,
+          "connectionIndex": 0,
+          "connectionElementId": "xPBs1CC0Qd0TFOyX"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 1,
+          "connectionIndex": 0,
+          "connectionElementId": "Sshebe5G9WKHLahR"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 2,
+          "connectionIndex": 0,
+          "connectionElementId": "VMpFIh46yIN7Zrlp"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 3,
+          "connectionIndex": 0,
+          "connectionElementId": "pJGtqY2SeK2TR2mO"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 4,
+          "connectionIndex": 0,
+          "connectionElementId": "6Gy2K8yw2SwgxPmD"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 5,
+          "connectionIndex": 0,
+          "connectionElementId": "W1G6jZ0ew1u62ZUk"
+        },
+        {
+          "isOutput": true,
+          "hasConnected": true,
+          "index": 6,
+          "connectionIndex": 0,
+          "connectionElementId": "PhJ56XoLNhjhlIvy"
         }
       ]
     },
     {
       "startX": 426.5,
-      "endX": 595.0,
+      "endX": 648.0,
       "startY": 380.0,
-      "endY": 381.0,
+      "endY": 381.3888854980469,
       "inputValue": true,
       "elementName": "COut",
       "elementClass": "com.aghajari.circuit.elements.Wire",
@@ -156,9 +694,10 @@
         },
         {
           "isOutput": true,
-          "hasConnected": false,
+          "hasConnected": true,
           "index": 0,
-          "connectionIndex": 0
+          "connectionIndex": 7,
+          "connectionElementId": "7lb2fisVxEO0zTv3"
         }
       ]
     },
@@ -405,183 +944,11 @@
       ]
     },
     {
-      "startX": 184.0,
-      "endX": 320.0,
-      "startY": 89.0,
-      "endY": 152.20001220703125,
-      "inputValue": false,
-      "elementName": "C0",
-      "elementClass": "com.aghajari.circuit.elements.Wire",
-      "elementId": "WEGHzqerqeBJauKz",
-      "connectors": [
-        {
-          "isOutput": false,
-          "hasConnected": false,
-          "index": 0,
-          "connectionIndex": 0
-        },
-        {
-          "isOutput": true,
-          "hasConnected": true,
-          "index": 0,
-          "connectionIndex": 0,
-          "connectionElementId": "GLLcBCZdFZXAMbo1"
-        }
-      ]
-    },
-    {
       "bitCount": 4,
-      "number": 7,
+      "number": 2,
       "internalWires": [
         {
-          "startX": 195.744140625,
-          "endX": 320.0,
-          "startY": 334.20001220703125,
-          "endY": 305.20001220703125,
-          "inputValue": false,
-          "elementName": "",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "V7vvwAqneXQayHJe",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "d7a21Bf5EunFTW54"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 5,
-              "connectionElementId": "GLLcBCZdFZXAMbo1"
-            }
-          ]
-        },
-        {
-          "startX": 195.744140625,
-          "endX": 320.0,
-          "startY": 365.3999938964844,
-          "endY": 335.79998779296875,
-          "inputValue": false,
-          "elementName": "",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "fYajUNdAHM0eqOlw",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "d7a21Bf5EunFTW54"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 6,
-              "connectionElementId": "GLLcBCZdFZXAMbo1"
-            }
-          ]
-        },
-        {
-          "startX": 195.744140625,
-          "endX": 320.0,
-          "startY": 396.6000061035156,
-          "endY": 366.4000244140625,
-          "inputValue": false,
-          "elementName": "",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "S4cSzTxTEv0IZWtd",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 2,
-              "connectionElementId": "d7a21Bf5EunFTW54"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 7,
-              "connectionElementId": "GLLcBCZdFZXAMbo1"
-            }
-          ]
-        },
-        {
-          "startX": 195.744140625,
-          "endX": 320.0,
-          "startY": 427.79998779296875,
-          "endY": 397.0,
-          "inputValue": false,
-          "elementName": "",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "9QCHk5WM39k7tI9N",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 3,
-              "connectionElementId": "d7a21Bf5EunFTW54"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 8,
-              "connectionElementId": "GLLcBCZdFZXAMbo1"
-            }
-          ]
-        }
-      ],
-      "layoutX": 149.255859375,
-      "layoutY": 306.0,
-      "prefWidth": 51.48828125,
-      "prefHeight": 150.0,
-      "elementName": "B",
-      "elementClass": "com.aghajari.circuit.elements.NumberGate",
-      "elementId": "d7a21Bf5EunFTW54",
-      "connectors": [
-        {
-          "isOutput": true,
-          "hasConnected": true,
-          "index": 0,
-          "connectionIndex": 0,
-          "connectionElementId": "V7vvwAqneXQayHJe"
-        },
-        {
-          "isOutput": true,
-          "hasConnected": true,
-          "index": 1,
-          "connectionIndex": 0,
-          "connectionElementId": "fYajUNdAHM0eqOlw"
-        },
-        {
-          "isOutput": true,
-          "hasConnected": true,
-          "index": 2,
-          "connectionIndex": 0,
-          "connectionElementId": "S4cSzTxTEv0IZWtd"
-        },
-        {
-          "isOutput": true,
-          "hasConnected": true,
-          "index": 3,
-          "connectionIndex": 0,
-          "connectionElementId": "9QCHk5WM39k7tI9N"
-        }
-      ]
-    },
-    {
-      "bitCount": 4,
-      "number": 10,
-      "internalWires": [
-        {
-          "startX": 200.01318359375,
+          "startX": 193.72265625,
           "endX": 320.0,
           "startY": 161.20001220703125,
           "endY": 182.8000030517578,
@@ -607,7 +974,7 @@
           ]
         },
         {
-          "startX": 200.01318359375,
+          "startX": 193.72265625,
           "endX": 320.0,
           "startY": 192.4000244140625,
           "endY": 213.40000915527344,
@@ -633,7 +1000,7 @@
           ]
         },
         {
-          "startX": 200.01318359375,
+          "startX": 193.72265625,
           "endX": 320.0,
           "startY": 223.60000610351562,
           "endY": 244.0,
@@ -659,7 +1026,7 @@
           ]
         },
         {
-          "startX": 200.01318359375,
+          "startX": 193.72265625,
           "endX": 320.0,
           "startY": 254.80001831054688,
           "endY": 274.6000061035156,
@@ -687,7 +1054,7 @@
       ],
       "layoutX": 146.98681640625,
       "layoutY": 133.00001525878906,
-      "prefWidth": 58.0263671875,
+      "prefWidth": 51.73583984375,
       "prefHeight": 150.0,
       "elementName": "A",
       "elementClass": "com.aghajari.circuit.elements.NumberGate",
@@ -727,6 +1094,16 @@
   "modules": {
     "0aQHZ7v1xN0sB3So": {
       "idsInOrder": [
+        "xgAV768eLB4r5BXx",
+        "QfTC4HzFY5YMGORB",
+        "jwpAU8gLFiwyor6c",
+        "TgUjamsUemSWOS9S",
+        "63yjQkc8c75U7cWP",
+        "ZRyb1eW1wQzAHNL5",
+        "wAwhhvgZRtq2BLsp",
+        "MYtaaHI9sJzyvLXn",
+        "ST5XaRI2wCubpSDy",
+        "1KBCkmYX7XkEBEKk",
         "xgAV768eLB4r5BXx",
         "QfTC4HzFY5YMGORB",
         "jwpAU8gLFiwyor6c",
@@ -909,118 +1286,6 @@
           ]
         },
         {
-          "startX": 610.7168884277344,
-          "endX": 636.5,
-          "startY": 116.33333206176758,
-          "endY": 99.99999618530273,
-          "inputValue": true,
-          "elementName": "WireOrAB",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "AxgQyv52385NMCBQ",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "owOcJbRTQMy4IAc6"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "XrNeYfByMpANAOk4"
-            }
-          ]
-        },
-        {
-          "internalWires": [
-            {
-              "startX": 282.5,
-              "endX": 227.0,
-              "startY": 232.0,
-              "endY": 206.0,
-              "inputValue": false,
-              "elementName": "",
-              "elementClass": "com.aghajari.circuit.elements.Wire",
-              "elementId": "jwpAU8gLFiwyor6c",
-              "connectors": [
-                {
-                  "isOutput": false,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 0,
-                  "connectionElementId": "iIV2hpeJfPZMcGdF"
-                },
-                {
-                  "isOutput": true,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 0,
-                  "connectionElementId": "ai3Jt2YGOlvWcDtF"
-                }
-              ]
-            },
-            {
-              "startX": 282.5,
-              "endX": 519.4713134765625,
-              "startY": 282.0,
-              "endY": 419.2250061035156,
-              "inputValue": false,
-              "elementName": "",
-              "elementClass": "com.aghajari.circuit.elements.Wire",
-              "elementId": "TgUjamsUemSWOS9S",
-              "connectors": [
-                {
-                  "isOutput": false,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 1,
-                  "connectionElementId": "iIV2hpeJfPZMcGdF"
-                },
-                {
-                  "isOutput": true,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 1,
-                  "connectionElementId": "6GHyHFpBxzngb82t"
-                }
-              ]
-            }
-          ],
-          "layoutX": 232.5,
-          "layoutY": 232.0,
-          "prefWidth": 50.0,
-          "prefHeight": 50.0,
-          "elementName": "PA0",
-          "elementClass": "com.aghajari.circuit.elements.Plug",
-          "elementId": "iIV2hpeJfPZMcGdF",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "ZTqNQLaseOo0RCcR"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "jwpAU8gLFiwyor6c"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "TgUjamsUemSWOS9S"
-            }
-          ]
-        },
-        {
           "internalWires": [
             {
               "startX": 282.5,
@@ -1103,143 +1368,6 @@
               "index": 1,
               "connectionIndex": 0,
               "connectionElementId": "ZRyb1eW1wQzAHNL5"
-            }
-          ]
-        },
-        {
-          "internalWires": [],
-          "layoutX": 472.09561920166016,
-          "layoutY": 66.33332824707031,
-          "prefWidth": 100.0,
-          "prefHeight": 100.0,
-          "elementName": "OrAB",
-          "elementClass": "com.aghajari.circuit.elements.GateOR",
-          "elementId": "owOcJbRTQMy4IAc6",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "wAwhhvgZRtq2BLsp"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "xgAV768eLB4r5BXx"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "AxgQyv52385NMCBQ"
-            }
-          ]
-        },
-        {
-          "startX": 81.0,
-          "endX": 226.5,
-          "startY": 414.0,
-          "endY": 411.0,
-          "inputValue": true,
-          "elementName": "B",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "EczXSWTYgVFwGmyb",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "tHf5mFTKzXtgPZDn"
-            }
-          ]
-        },
-        {
-          "internalWires": [],
-          "layoutX": 636.5,
-          "layoutY": 32.33332824707031,
-          "prefWidth": 100.0,
-          "prefHeight": 100.0,
-          "elementName": "AndCOrAB",
-          "elementClass": "com.aghajari.circuit.elements.GateAND",
-          "elementId": "XrNeYfByMpANAOk4",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "ST5XaRI2wCubpSDy"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "AxgQyv52385NMCBQ"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "fhnVI4Qma7cYcqPO"
-            }
-          ]
-        },
-        {
-          "internalWires": [],
-          "layoutX": 509.18933868408203,
-          "layoutY": 339.125,
-          "prefWidth": 100.0,
-          "prefHeight": 201.75,
-          "elementName": "Xor",
-          "elementClass": "com.aghajari.circuit.elements.GateXOR",
-          "elementId": "6GHyHFpBxzngb82t",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "1KBCkmYX7XkEBEKk"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "TgUjamsUemSWOS9S"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 2,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 3,
-              "connectionIndex": 0,
-              "connectionElementId": "ZRyb1eW1wQzAHNL5"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "920DYaih0GgVQnTe"
             }
           ]
         },
@@ -1330,6 +1458,123 @@
           ]
         },
         {
+          "startX": 737.5,
+          "endX": 712.2830810546875,
+          "startY": 82.33332824707031,
+          "endY": 218.16665649414062,
+          "inputValue": true,
+          "elementName": "WireOrCO",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "fhnVI4Qma7cYcqPO",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "XrNeYfByMpANAOk4"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "TslcW1Aw11V5YZiM"
+            }
+          ]
+        },
+        {
+          "startX": 836.7169189453125,
+          "endX": 894.0,
+          "startY": 235.8333282470703,
+          "endY": 238.0,
+          "inputValue": true,
+          "elementName": "CO",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "VFR1irP2y9FS7iJC",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "TslcW1Aw11V5YZiM"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            }
+          ]
+        },
+        {
+          "internalWires": [],
+          "layoutX": 472.09561920166016,
+          "layoutY": 66.33332824707031,
+          "prefWidth": 100.0,
+          "prefHeight": 100.0,
+          "elementName": "OrAB",
+          "elementClass": "com.aghajari.circuit.elements.GateOR",
+          "elementId": "owOcJbRTQMy4IAc6",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "wAwhhvgZRtq2BLsp"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "xgAV768eLB4r5BXx"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "AxgQyv52385NMCBQ"
+            }
+          ]
+        },
+        {
+          "internalWires": [],
+          "layoutX": 636.5,
+          "layoutY": 32.33332824707031,
+          "prefWidth": 100.0,
+          "prefHeight": 100.0,
+          "elementName": "AndCOrAB",
+          "elementClass": "com.aghajari.circuit.elements.GateAND",
+          "elementId": "XrNeYfByMpANAOk4",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "ST5XaRI2wCubpSDy"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "AxgQyv52385NMCBQ"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "fhnVI4Qma7cYcqPO"
+            }
+          ]
+        },
+        {
           "internalWires": [
             {
               "startX": 353.0,
@@ -1416,53 +1661,53 @@
           ]
         },
         {
-          "startX": 737.5,
-          "endX": 712.2830810546875,
-          "startY": 82.33332824707031,
-          "endY": 218.16665649414062,
+          "startX": 647.8106689453125,
+          "endX": 736.0,
+          "startY": 440.0,
+          "endY": 440.0,
           "inputValue": true,
-          "elementName": "WireOrCO",
+          "elementName": "S",
           "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "fhnVI4Qma7cYcqPO",
+          "elementId": "920DYaih0GgVQnTe",
           "connectors": [
             {
               "isOutput": false,
               "hasConnected": true,
               "index": 0,
               "connectionIndex": 0,
-              "connectionElementId": "XrNeYfByMpANAOk4"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "TslcW1Aw11V5YZiM"
-            }
-          ]
-        },
-        {
-          "startX": 836.7169189453125,
-          "endX": 894.0,
-          "startY": 235.8333282470703,
-          "endY": 238.0,
-          "inputValue": true,
-          "elementName": "CO",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "VFR1irP2y9FS7iJC",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "TslcW1Aw11V5YZiM"
+              "connectionElementId": "6GHyHFpBxzngb82t"
             },
             {
               "isOutput": true,
               "hasConnected": false,
               "index": 0,
               "connectionIndex": 0
+            }
+          ]
+        },
+        {
+          "startX": 610.7168884277344,
+          "endX": 636.5,
+          "startY": 116.33333206176758,
+          "endY": 99.99999618530273,
+          "inputValue": true,
+          "elementName": "WireOrAB",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "AxgQyv52385NMCBQ",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "owOcJbRTQMy4IAc6"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "XrNeYfByMpANAOk4"
             }
           ]
         },
@@ -1489,31 +1734,6 @@
               "index": 0,
               "connectionIndex": 1,
               "connectionElementId": "TslcW1Aw11V5YZiM"
-            }
-          ]
-        },
-        {
-          "startX": 79.0,
-          "endX": 297.0,
-          "startY": 100.0,
-          "endY": 67.0,
-          "inputValue": false,
-          "elementName": "C",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "aopBueQm3xuFawdN",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "NnNnPt0slRno3ofr"
             }
           ]
         },
@@ -1551,31 +1771,6 @@
           ]
         },
         {
-          "startX": 647.8106689453125,
-          "endX": 736.0,
-          "startY": 440.0,
-          "endY": 440.0,
-          "inputValue": true,
-          "elementName": "S",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "920DYaih0GgVQnTe",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "6GHyHFpBxzngb82t"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            }
-          ]
-        },
-        {
           "internalWires": [],
           "layoutX": 698.095588684082,
           "layoutY": 185.8333282470703,
@@ -1607,6 +1802,188 @@
               "connectionElementId": "VFR1irP2y9FS7iJC"
             }
           ]
+        },
+        {
+          "startX": 81.0,
+          "endX": 226.5,
+          "startY": 414.0,
+          "endY": 411.0,
+          "inputValue": true,
+          "elementName": "B",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "EczXSWTYgVFwGmyb",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "tHf5mFTKzXtgPZDn"
+            }
+          ]
+        },
+        {
+          "internalWires": [],
+          "layoutX": 509.18933868408203,
+          "layoutY": 339.125,
+          "prefWidth": 100.0,
+          "prefHeight": 201.75,
+          "elementName": "Xor",
+          "elementClass": "com.aghajari.circuit.elements.GateXOR",
+          "elementId": "6GHyHFpBxzngb82t",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "1KBCkmYX7XkEBEKk"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "TgUjamsUemSWOS9S"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 2,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 3,
+              "connectionIndex": 0,
+              "connectionElementId": "ZRyb1eW1wQzAHNL5"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "920DYaih0GgVQnTe"
+            }
+          ]
+        },
+        {
+          "internalWires": [
+            {
+              "startX": 282.5,
+              "endX": 227.0,
+              "startY": 232.0,
+              "endY": 206.0,
+              "inputValue": false,
+              "elementName": "",
+              "elementClass": "com.aghajari.circuit.elements.Wire",
+              "elementId": "jwpAU8gLFiwyor6c",
+              "connectors": [
+                {
+                  "isOutput": false,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 0,
+                  "connectionElementId": "iIV2hpeJfPZMcGdF"
+                },
+                {
+                  "isOutput": true,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 0,
+                  "connectionElementId": "ai3Jt2YGOlvWcDtF"
+                }
+              ]
+            },
+            {
+              "startX": 282.5,
+              "endX": 519.4713134765625,
+              "startY": 282.0,
+              "endY": 419.2250061035156,
+              "inputValue": false,
+              "elementName": "",
+              "elementClass": "com.aghajari.circuit.elements.Wire",
+              "elementId": "TgUjamsUemSWOS9S",
+              "connectors": [
+                {
+                  "isOutput": false,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 1,
+                  "connectionElementId": "iIV2hpeJfPZMcGdF"
+                },
+                {
+                  "isOutput": true,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 1,
+                  "connectionElementId": "6GHyHFpBxzngb82t"
+                }
+              ]
+            }
+          ],
+          "layoutX": 232.5,
+          "layoutY": 232.0,
+          "prefWidth": 50.0,
+          "prefHeight": 50.0,
+          "elementName": "PA0",
+          "elementClass": "com.aghajari.circuit.elements.Plug",
+          "elementId": "iIV2hpeJfPZMcGdF",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "ZTqNQLaseOo0RCcR"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "jwpAU8gLFiwyor6c"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "TgUjamsUemSWOS9S"
+            }
+          ]
+        },
+        {
+          "startX": 79.0,
+          "endX": 297.0,
+          "startY": 100.0,
+          "endY": 67.0,
+          "inputValue": false,
+          "elementName": "C",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "aopBueQm3xuFawdN",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "NnNnPt0slRno3ofr"
+            }
+          ]
         }
       ],
       "modules": {},
@@ -1615,6 +1992,14 @@
     },
     "Ch3KoHgGLkoATzAK": {
       "idsInOrder": [
+        "NalaT017YkufmbuR",
+        "1sX0cFcyWfBXFY37",
+        "1aPQLGmSEkXJ0BP2",
+        "bK707QG7Q05Mycwi",
+        "02r2Qj9hz8lG7GC4",
+        "Dh8ge7UYUItpmvsY",
+        "vfzXbpkpVPwEDVg4",
+        "2M0hHRxXpgaprXGC",
         "NalaT017YkufmbuR",
         "1sX0cFcyWfBXFY37",
         "1aPQLGmSEkXJ0BP2",
@@ -1660,306 +2045,6 @@
       ],
       "elements": [
         {
-          "startX": 80.0,
-          "endX": 389.0,
-          "startY": 382.0,
-          "endY": 381.5,
-          "inputValue": true,
-          "elementName": "B2",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "jYGNHmax5Hnfhe7R",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 2,
-              "connectionElementId": "5OiczvNKq0uthdI3"
-            }
-          ]
-        },
-        {
-          "startX": 76.5,
-          "endX": 163.0,
-          "startY": 210.5,
-          "endY": 209.0,
-          "inputValue": false,
-          "elementName": "A0",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "MzmnkzWPPtYgtkx8",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "j5C5jrsdPUWDcufP"
-            }
-          ]
-        },
-        {
-          "startX": 78.0,
-          "endX": 389.0,
-          "startY": 352.0,
-          "endY": 350.0,
-          "inputValue": false,
-          "elementName": "A2",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "PVn8Sj3ZfoPM8n1e",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "5OiczvNKq0uthdI3"
-            }
-          ]
-        },
-        {
-          "startX": 77.0,
-          "endX": 163.0,
-          "startY": 178.0,
-          "endY": 177.5,
-          "inputValue": false,
-          "elementName": "C0",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "6IUGTzbGdmAvZ1qZ",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "j5C5jrsdPUWDcufP"
-            }
-          ]
-        },
-        {
-          "startX": 81.0,
-          "endX": 504.0,
-          "startY": 428.0,
-          "endY": 420.5,
-          "inputValue": true,
-          "elementName": "A3",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "RfiCjYTU6oGN3awO",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "tTMMzPoDDJEoa0rG"
-            }
-          ]
-        },
-        {
-          "startX": 76.0,
-          "endX": 163.0,
-          "startY": 242.0,
-          "endY": 240.5,
-          "inputValue": true,
-          "elementName": "B0",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "XJ5Fdqmgi3SGm1dL",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 2,
-              "connectionElementId": "j5C5jrsdPUWDcufP"
-            }
-          ]
-        },
-        {
-          "startX": 80.0,
-          "endX": 504.0,
-          "startY": 460.0,
-          "endY": 452.0,
-          "inputValue": false,
-          "elementName": "B3",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "vS1Was8r3GnLCfDu",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 2,
-              "connectionElementId": "tTMMzPoDDJEoa0rG"
-            }
-          ]
-        },
-        {
-          "startX": 75.0,
-          "endX": 277.0,
-          "startY": 316.0,
-          "endY": 311.5,
-          "inputValue": true,
-          "elementName": "B1",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "ErY6Ib381tW9DSja",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 2,
-              "connectionElementId": "r3A9Sp5AkCkjk7Zs"
-            }
-          ]
-        },
-        {
-          "startX": 75.0,
-          "endX": 277.0,
-          "startY": 284.0,
-          "endY": 280.0,
-          "inputValue": true,
-          "elementName": "A1",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "pGMOXysbpWoKzpE0",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 1,
-              "connectionElementId": "r3A9Sp5AkCkjk7Zs"
-            }
-          ]
-        },
-        {
-          "startX": 268.5,
-          "endX": 782.0,
-          "startY": 188.0,
-          "endY": 186.0,
-          "inputValue": true,
-          "elementName": "S0",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "eT0OYdYygjaNKwjY",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "vfzXbpkpVPwEDVg4"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            }
-          ]
-        },
-        {
-          "startX": 492.5,
-          "endX": 784.0,
-          "startY": 330.0,
-          "endY": 326.0,
-          "inputValue": true,
-          "elementName": "S2",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "U1pQLFKQQehYkWsH",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "1aPQLGmSEkXJ0BP2"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            }
-          ]
-        },
-        {
-          "startX": 610.5,
-          "endX": 786.0,
-          "startY": 399.75,
-          "endY": 398.0,
-          "inputValue": true,
-          "elementName": "S3",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "90D5oPMfWdJkJWHf",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "NalaT017YkufmbuR"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            }
-          ]
-        },
-        {
           "startX": 626.5,
           "endX": 794.0,
           "startY": 457.75,
@@ -1981,107 +2066,6 @@
               "hasConnected": false,
               "index": 0,
               "connectionIndex": 0
-            }
-          ]
-        },
-        {
-          "moduleId": "0aQHZ7v1xN0sB3So",
-          "internalWires": [
-            {
-              "startX": 599.0,
-              "endX": 598.5,
-              "startY": 399.5,
-              "endY": 399.75,
-              "inputValue": false,
-              "elementName": "",
-              "elementClass": "com.aghajari.circuit.elements.Wire",
-              "elementId": "NalaT017YkufmbuR",
-              "connectors": [
-                {
-                  "isOutput": false,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 0,
-                  "connectionElementId": "tTMMzPoDDJEoa0rG"
-                },
-                {
-                  "isOutput": true,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 0,
-                  "connectionElementId": "90D5oPMfWdJkJWHf"
-                }
-              ]
-            },
-            {
-              "startX": 599.0,
-              "endX": 614.5,
-              "startY": 441.5,
-              "endY": 457.75,
-              "inputValue": false,
-              "elementName": "",
-              "elementClass": "com.aghajari.circuit.elements.Wire",
-              "elementId": "1sX0cFcyWfBXFY37",
-              "connectors": [
-                {
-                  "isOutput": false,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 1,
-                  "connectionElementId": "tTMMzPoDDJEoa0rG"
-                },
-                {
-                  "isOutput": true,
-                  "hasConnected": true,
-                  "index": 0,
-                  "connectionIndex": 0,
-                  "connectionElementId": "OQ2UBM2EOjpeiVem"
-                }
-              ]
-            }
-          ],
-          "layoutX": 504.0,
-          "layoutY": 360.5,
-          "prefWidth": 100.0,
-          "prefHeight": 120.0,
-          "elementName": "FA3",
-          "elementClass": "com.aghajari.circuit.elements.Module",
-          "elementId": "tTMMzPoDDJEoa0rG",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "bK707QG7Q05Mycwi"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "RfiCjYTU6oGN3awO"
-            },
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 2,
-              "connectionIndex": 0,
-              "connectionElementId": "vS1Was8r3GnLCfDu"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "NalaT017YkufmbuR"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": true,
-              "index": 1,
-              "connectionIndex": 0,
-              "connectionElementId": "1sX0cFcyWfBXFY37"
             }
           ]
         },
@@ -2187,31 +2171,6 @@
           ]
         },
         {
-          "startX": 381.25,
-          "endX": 784.0,
-          "startY": 260.0,
-          "endY": 256.0,
-          "inputValue": true,
-          "elementName": "S1",
-          "elementClass": "com.aghajari.circuit.elements.Wire",
-          "elementId": "tDGJ8rvzouZsbVBL",
-          "connectors": [
-            {
-              "isOutput": false,
-              "hasConnected": true,
-              "index": 0,
-              "connectionIndex": 0,
-              "connectionElementId": "02r2Qj9hz8lG7GC4"
-            },
-            {
-              "isOutput": true,
-              "hasConnected": false,
-              "index": 0,
-              "connectionIndex": 0
-            }
-          ]
-        },
-        {
           "moduleId": "0aQHZ7v1xN0sB3So",
           "internalWires": [
             {
@@ -2309,6 +2268,81 @@
               "index": 1,
               "connectionIndex": 0,
               "connectionElementId": "Dh8ge7UYUItpmvsY"
+            }
+          ]
+        },
+        {
+          "startX": 78.0,
+          "endX": 389.0,
+          "startY": 352.0,
+          "endY": 350.0,
+          "inputValue": false,
+          "elementName": "A2",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "PVn8Sj3ZfoPM8n1e",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "5OiczvNKq0uthdI3"
+            }
+          ]
+        },
+        {
+          "startX": 75.0,
+          "endX": 277.0,
+          "startY": 316.0,
+          "endY": 311.5,
+          "inputValue": true,
+          "elementName": "B1",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "ErY6Ib381tW9DSja",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "r3A9Sp5AkCkjk7Zs"
+            }
+          ]
+        },
+        {
+          "startX": 75.0,
+          "endX": 277.0,
+          "startY": 284.0,
+          "endY": 280.0,
+          "inputValue": true,
+          "elementName": "A1",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "pGMOXysbpWoKzpE0",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "r3A9Sp5AkCkjk7Zs"
             }
           ]
         },
@@ -2412,6 +2446,357 @@
               "connectionElementId": "2M0hHRxXpgaprXGC"
             }
           ]
+        },
+        {
+          "startX": 77.0,
+          "endX": 163.0,
+          "startY": 178.0,
+          "endY": 177.5,
+          "inputValue": false,
+          "elementName": "C0",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "6IUGTzbGdmAvZ1qZ",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "j5C5jrsdPUWDcufP"
+            }
+          ]
+        },
+        {
+          "startX": 76.5,
+          "endX": 163.0,
+          "startY": 210.5,
+          "endY": 209.0,
+          "inputValue": false,
+          "elementName": "A0",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "MzmnkzWPPtYgtkx8",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "j5C5jrsdPUWDcufP"
+            }
+          ]
+        },
+        {
+          "startX": 76.0,
+          "endX": 163.0,
+          "startY": 242.0,
+          "endY": 240.5,
+          "inputValue": true,
+          "elementName": "B0",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "XJ5Fdqmgi3SGm1dL",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "j5C5jrsdPUWDcufP"
+            }
+          ]
+        },
+        {
+          "moduleId": "0aQHZ7v1xN0sB3So",
+          "internalWires": [
+            {
+              "startX": 599.0,
+              "endX": 598.5,
+              "startY": 399.5,
+              "endY": 399.75,
+              "inputValue": false,
+              "elementName": "",
+              "elementClass": "com.aghajari.circuit.elements.Wire",
+              "elementId": "NalaT017YkufmbuR",
+              "connectors": [
+                {
+                  "isOutput": false,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 0,
+                  "connectionElementId": "tTMMzPoDDJEoa0rG"
+                },
+                {
+                  "isOutput": true,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 0,
+                  "connectionElementId": "90D5oPMfWdJkJWHf"
+                }
+              ]
+            },
+            {
+              "startX": 599.0,
+              "endX": 614.5,
+              "startY": 441.5,
+              "endY": 457.75,
+              "inputValue": false,
+              "elementName": "",
+              "elementClass": "com.aghajari.circuit.elements.Wire",
+              "elementId": "1sX0cFcyWfBXFY37",
+              "connectors": [
+                {
+                  "isOutput": false,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 1,
+                  "connectionElementId": "tTMMzPoDDJEoa0rG"
+                },
+                {
+                  "isOutput": true,
+                  "hasConnected": true,
+                  "index": 0,
+                  "connectionIndex": 0,
+                  "connectionElementId": "OQ2UBM2EOjpeiVem"
+                }
+              ]
+            }
+          ],
+          "layoutX": 504.0,
+          "layoutY": 360.5,
+          "prefWidth": 100.0,
+          "prefHeight": 120.0,
+          "elementName": "FA3",
+          "elementClass": "com.aghajari.circuit.elements.Module",
+          "elementId": "tTMMzPoDDJEoa0rG",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "bK707QG7Q05Mycwi"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "RfiCjYTU6oGN3awO"
+            },
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 2,
+              "connectionIndex": 0,
+              "connectionElementId": "vS1Was8r3GnLCfDu"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "NalaT017YkufmbuR"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 1,
+              "connectionIndex": 0,
+              "connectionElementId": "1sX0cFcyWfBXFY37"
+            }
+          ]
+        },
+        {
+          "startX": 80.0,
+          "endX": 504.0,
+          "startY": 460.0,
+          "endY": 452.0,
+          "inputValue": false,
+          "elementName": "B3",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "vS1Was8r3GnLCfDu",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "tTMMzPoDDJEoa0rG"
+            }
+          ]
+        },
+        {
+          "startX": 81.0,
+          "endX": 504.0,
+          "startY": 428.0,
+          "endY": 420.5,
+          "inputValue": true,
+          "elementName": "A3",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "RfiCjYTU6oGN3awO",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 1,
+              "connectionElementId": "tTMMzPoDDJEoa0rG"
+            }
+          ]
+        },
+        {
+          "startX": 80.0,
+          "endX": 389.0,
+          "startY": 382.0,
+          "endY": 381.5,
+          "inputValue": true,
+          "elementName": "B2",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "jYGNHmax5Hnfhe7R",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            },
+            {
+              "isOutput": true,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 2,
+              "connectionElementId": "5OiczvNKq0uthdI3"
+            }
+          ]
+        },
+        {
+          "startX": 610.5,
+          "endX": 786.0,
+          "startY": 399.75,
+          "endY": 398.0,
+          "inputValue": true,
+          "elementName": "S3",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "90D5oPMfWdJkJWHf",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "NalaT017YkufmbuR"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            }
+          ]
+        },
+        {
+          "startX": 492.5,
+          "endX": 784.0,
+          "startY": 330.0,
+          "endY": 326.0,
+          "inputValue": true,
+          "elementName": "S2",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "U1pQLFKQQehYkWsH",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "1aPQLGmSEkXJ0BP2"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            }
+          ]
+        },
+        {
+          "startX": 381.25,
+          "endX": 784.0,
+          "startY": 260.0,
+          "endY": 256.0,
+          "inputValue": true,
+          "elementName": "S1",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "tDGJ8rvzouZsbVBL",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "02r2Qj9hz8lG7GC4"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            }
+          ]
+        },
+        {
+          "startX": 268.5,
+          "endX": 782.0,
+          "startY": 188.0,
+          "endY": 186.0,
+          "inputValue": true,
+          "elementName": "S0",
+          "elementClass": "com.aghajari.circuit.elements.Wire",
+          "elementId": "eT0OYdYygjaNKwjY",
+          "connectors": [
+            {
+              "isOutput": false,
+              "hasConnected": true,
+              "index": 0,
+              "connectionIndex": 0,
+              "connectionElementId": "vfzXbpkpVPwEDVg4"
+            },
+            {
+              "isOutput": true,
+              "hasConnected": false,
+              "index": 0,
+              "connectionIndex": 0
+            }
+          ]
         }
       ],
       "modules": {},
@@ -2419,6 +2804,6 @@
       "name": "4BitRCA"
     }
   },
-  "id": "pqhzyxxBwmVZcIz3",
+  "id": "0V9vIc2lH4dKB1eb",
   "name": "Simplify4BitRCA"
 }

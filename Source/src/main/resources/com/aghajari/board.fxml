@@ -1,0 +1,10 @@
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.MenuBar?>
+<AnchorPane fx:id="root" fx:controller="com.aghajari.Controller"
+            style="-fx-background-color: white;"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <MenuBar fx:id="menuBar"/>
+</AnchorPane>

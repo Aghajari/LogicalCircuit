@@ -9,7 +9,7 @@ LogicalCircuit is an open-source CAD tool for logic circuits written in java (Ja
 - Save your project and reload it from a `.circuit` file
 
 <br>
-<img height=400 src="./Images/1.png"/>
+<img width=700 src="./Images/1.png"/>
 
 https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-8d5e-dc62fb06e647.mp4
 
@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > The AND gate is a basic digital logic gate that implements logical conjunction (∧) from mathematical logic – AND gate behaves according to the truth table. A HIGH output (1) results only if all the inputs to the AND gate are HIGH (1). If not all inputs to the AND gate are HIGH, LOW output results. The function can be extended to any number of inputs. [Read More...](https://en.wikipedia.org/wiki/AND_gate)
 
-<img height=400 src="./Images/AND.png"/>
+<img width=700 src="./Images/AND.png"/>
 
 </p></details>
 
@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > The OR gate is a digital logic gate that implements logical disjunction. The OR gate returns true if either or both of its inputs are true; otherwise it returns false. The input and output states are normally represented by different voltage levels. [Read More...](https://en.wikipedia.org/wiki/OR_gate)
 
-<img height=400 src="./Images/OR.png"/>
+<img width=700 src="./Images/OR.png"/>
 
 </p></details>
 
@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > XOR gate (sometimes EOR, or EXOR and pronounced as Exclusive OR) is a digital logic gate that gives a true (1 or HIGH) output when the number of true inputs is odd. An XOR gate implements an exclusive; that is, a true output results if one, and only one, of the inputs to the gate is true. [Read More...](https://en.wikipedia.org/wiki/XOR_gate)
 
-<img height=400 src="./Images/XOR.png"/>
+<img width=700 src="./Images/XOR.png"/>
 
 </p></details>
 
@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > In digital logic, an inverter or NOT gate is a logic gate which implements logical negation. It outputs a bit opposite of the bit that is put into it. The bits are typically implemented as two differing voltage levels. [Read More...](https://en.wikipedia.org/wiki/Inverter_(logic_gate))
 
-<img height=400 src="./Images/NOT.png"/>
+<img width=700 src="./Images/NOT.png"/>
 
 </p></details>
 
@@ -56,7 +56,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > In digital electronics, a NAND gate (NOT-AND) is a logic gate which produces an output which is false only if all its inputs are true. NAND is the result of the negation of the AND operator. [Read More...](https://en.wikipedia.org/wiki/NAND_gate)
 
-<img height=400 src="./Images/NAND.png"/>
+<img width=700 src="./Images/NAND.png"/>
 
 </p></details>
 
@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > The NOR gate is a digital logic gate that implements logical NOR - it behaves according to the truth table. A HIGH output (1) results if both the inputs to the gate are LOW (0); if one or both input is HIGH (1), a LOW output (0) results. NOR is the result of the negation of the OR operator. [Read More...](https://en.wikipedia.org/wiki/NOR_gate)
 
-<img height=400 src="./Images/NOR.png"/>
+<img width=700 src="./Images/NOR.png"/>
 
 </p></details>
 
@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 > The XNOR gate is a digital logic gate whose function is the logical complement of the Exclusive OR (XOR) gate. The two-input version implements logical equality, behaving according to the truth table, and hence the gate is sometimes called an "equivalence gate". A high output (1) results if both of the inputs to the gate are the same. If one but not both inputs are high (1), a low output (0) results. XNOR is the result of the negation of the XOR operator. [Read More...](https://en.wikipedia.org/wiki/XNOR_gate)
 
-<img height=400 src="./Images/XNOR.png"/>
+<img width=700 src="./Images/XNOR.png"/>
 
 </p></details>
 
@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-
 
 Generate Truth-Table from File -> Truth Table
 
-<img height=400 src="./Images/TruthTable.png"/>
+<img width=700 src="./Images/TruthTable.png"/>
 
 ## Seven-Segment Display
 > A seven-segment display is a form of electronic display device for displaying decimal numerals. [Read More...](https://en.wikipedia.org/wiki/Seven-segment_display)
@@ -97,7 +97,7 @@ You can update the number later in Elements -> [Number element name] -> Update N
 And another module named `NumberTo7Segment (NT7)`,<br>
 Which gets 4 input as a BCD number and returns 7 outputs to simply display the number on Seven-segment.
 
-<img height=400 src="./Images/7Segment.png"/>
+<img width=700 src="./Images/7Segment.png"/>
 
 https://user-images.githubusercontent.com/30867537/209450262-f294f011-747d-4c55-85d2-fd56d7954988.mp4
 
@@ -135,14 +135,14 @@ S  = A ⊕ B ⊕ C <br>
 CO = C(A + B) + AB <br>
 The designed circuit: [FullAdder.circuit](./MyModules/FullAdder.circuit) <br>
 
-<img height=400 src="./Images/FullAdder.png"/>
+<img width=700 src="./Images/FullAdder.png"/>
 
 **Step 2: Create a new module named 4BitRCA.** <br>
 4BitRCA must get 9 inputs in order of [C, A0, A1, A2, A3, B0, B1, B2, B3] and returns 5 outputs in order of [S0, S1, S2, S3, COut]<br>
 The module must contains four FullAdders. input [Ci, Ai, Bi] to get [Si, C(i+1)]. <br>
 The designed circuit: [4BitRCA.circuit](./MyModules/4BitRCA.circuit) <br>
 
-<img height=400 src="./Images/4BitRCA.png"/>
+<img width=700 src="./Images/4BitRCA.png"/>
 
 **Step 3: Create a new module named Number4BitRCA.** <br>
 *You can simplify 4BitRCA if and only if you have ordered the inputs correctly!* <br>
@@ -153,7 +153,7 @@ Connect COut to Seven-segment's DP input. <br>
 Example: If you set the number of A to 2 and B to 7. The output `S` must show number 9 in seven-segment. <br>
 The designed circuit: [Number4BitRCA.circuit](./MyModules/Number4BitRCA.circuit) <br>
 
-<img height=400 src="./Images/4BitRCA-2.png"/>
+<img width=700 src="./Images/4BitRCA-2.png"/>
 
 License
 =======

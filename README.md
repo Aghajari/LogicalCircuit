@@ -11,6 +11,8 @@ LogicalCircuitEmulator is an open-source CAD tool for logic circuits written in 
 <br>
 <img height=400 src="./Images/1.png"/>
 
+https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-8d5e-dc62fb06e647.mp4
+
 ## Basic Gates
 
 <details><summary><b>AND</b></summary>
@@ -97,6 +99,8 @@ Which gets 4 input as a BCD number and returns 7 outputs to simply display the n
 
 <img height=400 src="./Images/7Segment.png"/>
 
+https://user-images.githubusercontent.com/30867537/209450262-f294f011-747d-4c55-85d2-fd56d7954988.mp4
+
 ## Latch & Flip-Flop
 > flip-flop or latch is a circuit that has two stable states and can be used to store state information [Read More...](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
 
@@ -120,6 +124,8 @@ I've saved some sample circuits and modules in [MyModules](./MyModules), Try the
  You can change the order by sending wire to back or bring it to front from Elements -> [WireName] 
 4. Back to your main tab from Tabs -> [Main tab name]
 5. Add your module to the circuit from New -> Module -> My Modules -> [Your Module Name]
+
+https://user-images.githubusercontent.com/30867537/209450358-f3a377e7-3fc0-4f0b-9009-39ded69fac5d.mp4
 
 ## FullAdder and 4-Bit RCA Modules!
 

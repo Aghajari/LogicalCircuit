@@ -1,5 +1,5 @@
-# LogicalCircuitEmulator
-LogicalCircuitEmulator is an open-source CAD tool for logic circuits written in java (JavaFX). <br>
+# LogicalCircuit
+LogicalCircuit is an open-source CAD tool for logic circuits written in java (JavaFX). <br>
 
 - Supports all basic gates such as AND, OR, XOR, NOT, NAND, NOR, XNOR.
 - Supports Seven Segment

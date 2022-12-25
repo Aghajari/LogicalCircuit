@@ -39,25 +39,27 @@ public class WidgetStyle {
 
     public static void apply(Circle circle, CircleType type, boolean fill) {
         switch (type) {
-            case INPUT, GATE_INPUT -> {
+            case INPUT:
+            case GATE_INPUT:
                 circle.setStroke(WidgetStyle.INPUT_CIRCLE_COLOR);
                 circle.setStrokeDashOffset(STROKE_SIZE);
                 circle.setRadius(type == CircleType.GATE_INPUT ?
                         WidgetStyle.BIG_RADIUS : WidgetStyle.RADIUS);
-            }
-            case OUTPUT, GATE_OUTPUT -> {
+                break;
+            case OUTPUT:
+            case GATE_OUTPUT:
                 circle.setStroke(WidgetStyle.OUTPUT_CIRCLE_COLOR);
                 circle.setRadius(type == CircleType.GATE_OUTPUT ?
                         WidgetStyle.BIG_RADIUS : WidgetStyle.RADIUS);
-            }
-            case SELECTOR -> {
+                break;
+            case SELECTOR:
                 circle.setStroke(WidgetStyle.SELECTOR_COLOR);
                 circle.setRadius(WidgetStyle.RADIUS);
-            }
-            case NOT -> {
+                break;
+            case NOT:
                 circle.setStroke(WidgetStyle.GATE_COLOR);
                 circle.setRadius(WidgetStyle.RADIUS);
-            }
+                break;
         }
 
         if (!fill) {

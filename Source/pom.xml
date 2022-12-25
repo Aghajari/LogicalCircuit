@@ -8,10 +8,21 @@
     <artifactId>LogicalCircuit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!---
+    List of os:
+    mac
+    mac-aarch64
+    win
+    win-x86
+    linux
+    linux-arm32-monocle
+    linux-aarch64
+    -->
+
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
-        <os>mac</os>
+        <os>mac-aarch64</os>
     </properties>
 
     <build>
@@ -22,6 +33,14 @@
                 <version>0.0.8</version>
                 <configuration>
                     <mainClass>com.aghajari.Main</mainClass>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>

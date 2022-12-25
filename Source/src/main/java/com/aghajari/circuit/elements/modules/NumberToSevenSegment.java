@@ -11,6 +11,7 @@ public class NumberToSevenSegment extends BaseGate {
 
     private final boolean[] array = new boolean[7];
     private String elementName;
+    private int prevNumber = -2;
 
     public NumberToSevenSegment() {
         drawRectAsPath();
@@ -71,49 +72,53 @@ public class NumberToSevenSegment extends BaseGate {
         }
 
         if (!hasConnected) number = -1;
+        if (prevNumber == number) return array[index];
+        prevNumber = number;
 
         switch (number) {
-            case 0 -> {
+            case 0:
                 Arrays.fill(array, true);
                 array[6] = false;
-            }
-            case 1 -> {
+                break;
+            case 1:
                 Arrays.fill(array, false);
                 array[1] = array[2] = true;
-            }
-            case 2 -> {
+                break;
+            case 2:
                 Arrays.fill(array, true);
                 array[2] = array[5] = false;
-            }
-            case 3 -> {
+                break;
+            case 3:
                 Arrays.fill(array, true);
                 array[4] = array[5] = false;
-            }
-            case 4 -> {
+                break;
+            case 4:
                 Arrays.fill(array, true);
                 array[0] = array[3] = array[4] = false;
-            }
-            case 5 -> {
+                break;
+            case 5:
                 Arrays.fill(array, true);
                 array[1] = array[4] = false;
-            }
-            case 6 -> {
+                break;
+            case 6:
                 Arrays.fill(array, true);
                 array[1] = false;
-            }
-            case 7 -> {
+                break;
+            case 7:
                 Arrays.fill(array, false);
                 array[0] = array[1] = array[2] = true;
-            }
-            case 8 -> Arrays.fill(array, true);
-            case 9 -> {
+                break;
+            case 8:
+                Arrays.fill(array, true);
+                break;
+            case 9:
                 Arrays.fill(array, true);
                 array[4] = false;
-            }
-            default -> {
+                break;
+            default:
                 Arrays.fill(array, false);
                 array[6] = true;
-            }
+                break;
         }
 
         return array[index];

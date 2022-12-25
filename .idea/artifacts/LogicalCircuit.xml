@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="LogicalCircuit">
+    <output-path>$PROJECT_DIR$/Output</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="LogicalCircuit-win:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-mac:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-mac-aarch64:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-linux:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-linux-aarch64:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-linux-arm32-monocle:jar" />
+      <element id="artifact" artifact-name="LogicalCircuit-win-x86:jar" />
+    </root>
+  </artifact>
+</component>

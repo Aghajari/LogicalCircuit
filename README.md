@@ -1,7 +1,7 @@
 # LogicalCircuit
 LogicalCircuit is an open-source CAD tool for logic circuits written in java (JavaFX). <br>
 
-- Supports all basic gates such as AND, OR, XOR, NOT, NAND, NOR, XNOR.
+- Supports all basic gates. [AND, OR, XOR, NOT, NAND, NOR, XNOR]
 - Supports Seven Segment
 - Supports Latch And Flip-Flop (Both Positive and Negative)
 - Generates Truth Table
@@ -105,7 +105,7 @@ Seven-segment gets 8 inputs: 7 bit for each line in module and last bit for DP.<
 Input order: [A, B, C, D, E, F, G, DP]
 
 There is a module named `Number`, You can enter count of bits you want and the number that it should show.<br>
-It doesn't get any inputs but it will give you N-Bit output that displays the number you want.<br>
+It doesn't get any inputs, but it will give you N-Bit output that displays the number you want.<br>
 You can update the number later in Elements -> [Number element name] -> Update Number.<br>
 
 And another module named `NumberTo7Segment (NT7)`,<br>
@@ -153,7 +153,7 @@ The designed circuit: [FullAdder.circuit](./MyModules/FullAdder.circuit) <br>
 
 **Step 2: Create a new module named 4BitRCA.** <br>
 4BitRCA must get 9 inputs in order of [C, A0, A1, A2, A3, B0, B1, B2, B3] and returns 5 outputs in order of [S0, S1, S2, S3, COut]<br>
-The module must contains four FullAdders. input [Ci, Ai, Bi] to get [Si, C(i+1)]. <br>
+The module must contain four FullAdders. input [Ci, Ai, Bi] to get [Si, C(i+1)]. <br>
 The designed circuit: [4BitRCA.circuit](./MyModules/4BitRCA.circuit) <br>
 
 <img width=700 src="./Images/4BitRCA.png"/>

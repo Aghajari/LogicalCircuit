@@ -13,6 +13,20 @@ LogicalCircuit is an open-source CAD tool for logic circuits written in java (Ja
 
 https://user-images.githubusercontent.com/30867537/209450448-a8a2ea87-4079-4516-8d5e-dc62fb06e647.mp4
 
+## Requirements
+You need JRE >= 11 to run the project.
+
+- Windows
+  - [x64](./Output/LogicalCircuit-win.jar)
+  - [x86](./Output/LogicalCircuit-win-x86.jar)
+- Mac
+  - [x64](./Output/LogicalCircuit-mac.jar)
+  - [AArch64](./Output/LogicalCircuit-mac-aarch64.jar)
+- Linux
+  - [x64](./Output/LogicalCircuit-linux.jar)
+  - [AArch64](./Output/LogicalCircuit-linux-aarch64.jar)
+  - [Arm32](./Output/LogicalCircuit-linux-arm32-monocle.jar)
+ 
 ## Basic Gates
 
 <details><summary><b>AND</b></summary>
